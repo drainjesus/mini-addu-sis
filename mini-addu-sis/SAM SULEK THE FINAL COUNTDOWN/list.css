@@ -1,0 +1,69 @@
+.header-section {
+  font-family: Arial, sans-serif; 
+  border: 1px solid #000000; 
+  padding: 20px; /* This adds space inside the border. Adjust the value as needed */
+  margin: 20px; /* This adds space outside the border. Adjust the value as needed */
+  background-color: #f9f9f9; 
+  
+}
+.header-
+
+.grade-guidelines {
+  margin-top: 20px;
+  font-size:larger;
+  font-weight: 100;
+}
+
+.grade-guidelines li {
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+select, input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  padding: 2px;
+  height: 25px;
+  width: auto;
+}
+
+select {
+  cursor: pointer;
+}

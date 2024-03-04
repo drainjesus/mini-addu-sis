@@ -1,0 +1,83 @@
+h1 {
+  margin: 0 0 10px 0;
+  color: #3b5998;
+  font-size: 25px;
+}
+
+.header-section {
+  font-family: Arial, sans-serif; 
+}
+
+.grade-guidelines {
+  margin-top: 20px;
+  font-size:larger;
+  font-weight: 100;
+}
+
+.grade-guidelines li {
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.custom-row th{
+  background-color: #00000082;
+  color: white;
+}
+
+.buttom-row ul{
+  text-align: right;
+}
+
+.time {
+font-size: small;
+font-family: sans-serif;
+}
+
+.result {
+font-size: small;
+}
+
+.legend h3{
+  font-weight: normal;
+}
+.red-grade {
+  color: red;
+}
+
+.black-grade {
+  color: black;
+  font-weight: 600;
+}
+
+.print{
+  font-size: small;
+}
+
+.print button {
+  background: #3B5998;
+  color: white;
+  margin: 1px 6;
+
+}

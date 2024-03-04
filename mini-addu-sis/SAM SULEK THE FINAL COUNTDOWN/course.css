@@ -1,0 +1,37 @@
+.course-list-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  overflow-x: auto; /* For responsive design */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-list-table {
+  width: 100%;
+  border-collapse: collapse; /* Removes space between borders */
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow to the table */
+}
+
+.course-list-table th,
+.course-list-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd; /* Light grey border */
+  text-align: left;
+}
+
+.course-list-table th {
+  background-color: #004080; /* Dark blue background */
+  color: white;
+}
+
+.course-list-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+/* Add a hover effect for rows */
+.course-list-table tr:hover {
+  background-color: #e8f4ff; /* Light blue on hover */
+}
