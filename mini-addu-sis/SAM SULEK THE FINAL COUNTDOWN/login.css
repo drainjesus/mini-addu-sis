@@ -1,0 +1,180 @@
+#s_header{
+  background-color: #3b5998;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.container img{
+  height: 55px;
+  padding-left: -100px;
+  float: left;
+}
+
+.sis{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 2vh;
+  /*background-color: red;*/
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 0 10px 22px 30px;
+  color: white;
+}
+
+.addu{
+  height: 2vh;
+  /*background-color: red;*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 20px 0 0 -290px;
+  font-size: 10px;
+  color: white;
+  font-stretch: expanded;
+
+}
+
+/*login*/
+
+.sidebar {
+  position: absolute;
+  top: 65px;
+  bottom: 3px;
+  width: 250px;
+  height: 94vh;
+  /*background-color: red;*/
+  color: #fff;
+  padding: 20px;
+  left: 0;
+}
+
+h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  color: #3b5998;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input {
+  width: 70%;
+  padding: 7px;
+  margin-bottom: 10px;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #777;
+}
+
+.title{
+  color: #999;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  background-color: red;
+}
+
+/*Profile*/
+
+.profile-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  position: relative; /* Ensure the profile menu is positioned relative to its parent */
+  z-index: 1; /* Set a higher z-index to ensure it appears above the header */
+}
+
+.profile-sidebar {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  position: fixed; /* Fixed positioning to keep the sidebar in place */
+  top: 65px; /* Align the top of the sidebar with the top of the viewport */
+  left: 0; /* Align the left side of the sidebar with the left side of the viewport */
+  bottom: 0; /* Align the bottom of the sidebar with the bottom of the viewport */
+
+}
+
+.header {
+  position: fixed; /* Fixed positioning to keep the header in place */
+  top: 0; /* Align the top of the header with the top of the viewport */
+  left: 0; /* Align the left side of the header with the left side of the viewport */
+  width: 100%; /* Set the width of the header to 100% of the viewport */
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  z-index: 0; /* Set a lower z-index to ensure it appears behind the profile menu */
+}
+
+.profile-sidebar h3 ,p{
+  margin: 0;
+  color: #3b5998;
+  font-size: 11px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-sidebar h2{
+  color: #999;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.profile-menu li{
+  font-size: 11px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.28;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+li.first-leaf{
+  margin-top: 0;
+  padding: 2px 0 1px 5px;
+  font-size: 11px;
+}
+li.leaf{
+  margin: 0;
+  padding: 2px 0 1px 5px;
+  font-size: 11px;
+}
+
+
+
+
+
+
+
+
